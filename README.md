@@ -21,7 +21,7 @@ The project demonstrates the implementation of:
 
 
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - NumPy
@@ -30,7 +30,7 @@ The project demonstrates the implementation of:
 
 ---
 
-# Dataset
+## Dataset
 
 The project uses the Fashion MNIST dataset.
 
@@ -57,7 +57,7 @@ The dataset classes are:
 
 ---
 
-# CNN Architecture
+## CNN Architecture
 
 ```text
 Input Image (28x28)
@@ -77,9 +77,9 @@ Softmax Output Layer
 
 ---
 
-# Layers Implemented
+## Layers Implemented
 
-## 1. Convolution Layer
+### 1. Convolution Layer
 
 The convolution layer extracts important image features such as:
 
@@ -92,7 +92,7 @@ Filters slide over the image and perform convolution operations.
 
 ---
 
-## 2. ReLU Activation Function
+### 2. ReLU Activation Function
 
 ReLU introduces non-linearity into the neural network.
 
@@ -104,7 +104,7 @@ f(x) = max(0, x)
 
 ---
 
-## 3. Max Pooling Layer
+### 3. Max Pooling Layer
 
 Pooling reduces the spatial dimensions of feature maps.
 
@@ -116,25 +116,25 @@ Benefits:
 
 ---
 
-## 4. Flatten Layer
+### 4. Flatten Layer
 
 The flatten layer converts 2D feature maps into a 1D vector before passing it to the fully connected layer.
 
 ---
 
-## 5. Fully Connected Layer
+### 5. Fully Connected Layer
 
 The fully connected layer performs classification based on extracted features.
 
 ---
 
-## 6. Softmax Layer
+### 6. Softmax Layer
 
 Softmax converts outputs into probability distributions for classification.
 
 ---
 
-# Forward Pass
+## Forward Pass
 
 The forward propagation sequence is:
 
@@ -151,7 +151,7 @@ Input
 
 ---
 
-# Backward Pass
+## Backward Pass
 
 Backpropagation computes gradients and updates weights using gradient descent to minimize loss.
 
@@ -169,9 +169,9 @@ Loss
 
 ---
 
-# How to Run the Project
+## How to Run the Project
 
-## Step 1: Install Dependencies
+### Step 1: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -179,7 +179,7 @@ pip install -r requirements.txt
 
 ---
 
-## Step 2: Run the Program
+### Step 2: Run the Program
 
 ```bash
 python cnn_from_scratch.py
