@@ -187,7 +187,7 @@ python cnn_from_scratch.py
 
 ---
 
-# Results
+## Results
 
 Training Accuracy: _____
 
@@ -195,24 +195,9 @@ Testing Accuracy: _____
 
 ---
 
-# Author
+## Author
 
 Name: Ramya R Bijapur  
 USN: PES1PG25CS055
 
 ---
-
-# Submission Details
-
-Repository Name:
-
-```text
-UE24CS645BC2_PES1PG25CS055_Fashion_MNIST_CNN
-```
-
-GitHub repository contains:
-
-- Source code
-- README.md
-- requirements.txt
-- Output screenshots
