@@ -19,18 +19,7 @@ The project demonstrates the implementation of:
 
 ---
 
-# Project Structure
 
-```text
-UE24CS645BC2_PES1PG25CS055_Fashion_MNIST_CNN/
-│
-├── cnn_from_scratch.py
-├── README.md
-├── requirements.txt
-└── sample_output.png
-```
-
----
 
 # Technologies Used
 
