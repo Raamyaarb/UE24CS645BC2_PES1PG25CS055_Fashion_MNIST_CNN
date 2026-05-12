@@ -189,9 +189,9 @@ python cnn_from_scratch.py
 
 ## Results
 
-Training Accuracy: _____
+Training Accuracy:58%
 
-Testing Accuracy: _____
+Testing Accuracy:62.6%
 
 ---
 
